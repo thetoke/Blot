@@ -74,7 +74,7 @@ settings.get("/settings/title", function(req, res, next){
 });
 
 settings.get("/settings/menu", load.menu);
-settings.get("/settings/date", load.timezones, load.dates);
+settings.get("/settings/dates", load.timezones, load.dates);
 settings.get("/settings/services", load.plugins);
 settings.get("/settings/urls", load.permalinkFormats);
 
