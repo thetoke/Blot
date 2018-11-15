@@ -57,21 +57,29 @@
     {{> yield}}
 
 
-<div  style="position:fixed;bottom:0;padding-bottom:40px;padding-right:100px;background:#fdfaf8">
-   <a style="color:#aaa;text-decoration:none;margin-left:20px;"  href="/account">Your account</a>
-   <a style="color:#aaa;text-decoration:none;margin-left:40px;flex-grow:1;text-align:center;"  href="/help">Documentation</a>
-   <a style="color:#aaa;text-decoration:none;margin-left:40px;" href="/contact">Contact support</a>
- </div> 
+
    
   </div>
     
-  <div class="middle" style="display:flex;flex-direction:column">
+  <div class="middle" style="display:flex;flex-direction:column;">
   
     {{> folder}}
 
-</div>
+  </div>
+ <div class="gap-small"></div>
 
-<div class="gap"></div>
+<div class="right-side" style="overflow:hidden;">
+  <div style="
+border-left:1px solid rgba(0,0,0,0.08);padding-bottom:64px">
+   <a style="margin-top:9px;display:block;overflow:hidden;padding:0 20px;color:#aaa;text-decoration:none;"  href="/account">Your account</a>
+   <a style="display:block;padding:0 20px;color:#aaa;text-decoration:none;"  href="/help">Documentation</a>
+   <a style="display:block;display:block;overflow:hidden;padding:0 20px;color:#aaa;text-decoration:none;" href="/contact">Contact support</a>
+ </div>
+   <div style="position:relative;right:-1000px">
+      {{> dropdown}}
+  </div>
+ </div> 
+ <div class="gap"></div>
 </div>
 <div class="clear"></div>
 
