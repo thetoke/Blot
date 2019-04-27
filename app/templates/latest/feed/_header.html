@@ -1,0 +1,14 @@
+<div class="header">
+  <a href="/">
+      {{#avatar}}
+      <img class="avatar {{#roundAvatar}}rounded{{/roundAvatar}}" src="{{avatar}}" alt="{{title}}"/>
+      {{/avatar}}
+      {{title}}
+    </a>
+  <hr >
+
+  {{#menu}}
+  <a href="{{url}}" title="{{label}}">{{label}}</a>
+  {{^last}}<hr class="spacer">{{/last}}
+  {{/menu}}
+</div>

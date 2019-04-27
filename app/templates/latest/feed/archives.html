@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  {{> head}}
+  <body>
+    {{> header}}
+    <div class="container">
+      <div class="main">
+        <h1>Archives</h1>
+        <div>
+          {{#allEntries}}
+          <a href="{{url}}">
+          <span class="small">{{#formatDate}}YYYY-MM-DD{{/formatDate}}</span> {{title}}{{summary}}
+        </a>
+          <hr>
+          {{/allEntries}}
+        </div>
+        {{> footer}}
+      </div>
+    </div>
+  </body>
+</html>
