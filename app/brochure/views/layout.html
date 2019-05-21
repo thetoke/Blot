@@ -8,7 +8,14 @@
     align-items: center;">
         <a class="logo {{selected.index}}" title="Blot" href="/" >{{> logo}}</a>
       </section>
-  
+
+      <section class="links">
+        <a href="/publishing">How to use Blot</a>
+        <a href="/templates">Templates</a>
+        <a href="/about">About</a>
+        <a href="/news">News</a>
+        <a href="/support">Support</a>
+      </section>  
 
       <section class="links">
         <label for="toggle">Menu</label>
@@ -22,6 +29,7 @@
     
     <input type="checkbox" name="toggle" id="toggle">
       
+      {{#if selected.publishing}}
     <ul class="sidebar col-25">
 
 
@@ -60,7 +68,7 @@
         <li><a class="{{selected.news}}" href="/news">News</a></li>
         <li><a class="{{selected.about}}" href="/about">About</li>
    </ul>
-
+{{/if}}
     <content class="col-75">
       {{{body}}}
     </content>

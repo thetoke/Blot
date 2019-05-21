@@ -109,12 +109,10 @@ header row {
   display: flex;
   align-items: center;
   max-width: none;
-  min-height: 2.8em;
 }
 
 header {
-  padding: 1.4em;
-  border-bottom: 1px solid #eceff1
+  padding: 1em;
 }
 
 header a,
@@ -123,7 +121,7 @@ header label {
   /*  margin: 0 0.7em;
 */
   /*color: #005eb8;*/
-  color: #989694;
+  color: #111;
   box-sizing: border-box;
   text-decoration: none;
 }
@@ -186,7 +184,6 @@ header hr,
 header a svg,
 footer a svg {
   width: 36px;
-  margin: 6px 0;
   fill: #000;
   stroke: #000;
   vertical-align: text-bottom;
