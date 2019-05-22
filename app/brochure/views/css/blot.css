@@ -171,7 +171,7 @@ main.has-sidebar {
 
 ul.templates {
   display: flex;
-  margin: 2em 0;
+  margin: 2em auto;
   justify-content: center;
   flex-wrap: wrap;
   padding: 0;
@@ -257,7 +257,7 @@ th:last-child {
 
 background {
   display: flex;
-  margin: 2.8em 0;
+  margin: 2.8em auto;
   background: #96deff80;
   box-sizing: border-box;
   align-items: center;
