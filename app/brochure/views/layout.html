@@ -6,16 +6,14 @@
     <row>
       <section style="padding: 0 0.7em;    display: flex;
     align-items: center;">
-        <a class="logo {{selected.index}}" title="Blot" href="/" >{{> logo}}</a>
+        <a style="margin-right:1.4em" class="logo {{selected.index}}" title="Blot" href="/" >{{> logo}}</a>
+        <a style="margin-right:1.4em" href="/publishing">How to use Blot</a>
+        <a style="margin-right:1.4em" href="/templates">Templates</a>
+        <a style="margin-right:1.4em" href="/about">About</a>
+        <a style="margin-right:1.4em" href="/news">News</a>
+        <a href="/support">Support</a>
       </section>
 
-      <section class="links">
-        <a href="/publishing">How to use Blot</a>
-        <a href="/templates">Templates</a>
-        <a href="/about">About</a>
-        <a href="/news">News</a>
-        <a href="/support">Support</a>
-      </section>  
 
       <section class="links">
         <label for="toggle">Menu</label>
@@ -61,15 +59,16 @@
         <a class="{{selected.domain}}" href="{{{base}}}/publishing/domain">Use your domain</a>
       </li>
 
-
+<!-- 
         <hr>
         <li><a class="{{selected.templates}}" href="{{{base}}}/templates">Templates</li>
         <li><a class="{{selected.support}}" href="/support">Support</a></li>
         <li><a class="{{selected.news}}" href="/news">News</a></li>
-        <li><a class="{{selected.about}}" href="/about">About</li>
+        <li><a class="{{selected.about}}" href="/about">About</li> -->
    </ul>
 {{/if}}
     <content class="col-75">
+      <br><br>
       {{{body}}}
     </content>
   </main>
