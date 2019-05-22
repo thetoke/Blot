@@ -116,7 +116,6 @@ header {
 }
 
 header a,
-.sidebar a,
 header label {
   /*  margin: 0 0.7em;
 */
@@ -129,7 +128,6 @@ header label {
 header a {}
 
 header a:focus,
-.sidebar a:focus,
 header label:focus {
   /*  background-color: #eee;
   box-shadow: 0 0 0 4px #eee;
@@ -142,7 +140,6 @@ header label:focus {
 
 
 header a:hover,
-.sidebar a:hover,
 header label:hover {
   /*  background-color: #eee;
   box-shadow: 0 0 0 4px #eee;

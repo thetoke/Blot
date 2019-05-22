@@ -11,8 +11,8 @@ ul.sidebar {
   margin: 0;
   margin: 3.8em 0;
   list-style: none;
-  width: 25%;
   padding-right: 2.1em;
+  padding-left: 0.7em;
   box-sizing: border-box;
   max-width: none;
   flex-shrink: 0;
@@ -38,7 +38,8 @@ ul.sidebar a:focus {
 ul.sidebar>* {}
 
 .sidebar a.selected {
-  color: black !important
+  color: black !important;
+  font-weight: 600
 }
 
 
@@ -69,7 +70,7 @@ label[for="toggle"] {
   display: inline-block;
   position: relative;
   cursor: pointer !important;
-  color: #a09d9c;
+  color: rgba(0,0,0,0.5);
   line-height: 1.3;
   text-decoration: none;
   word-wrap: break-word;
